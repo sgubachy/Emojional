@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -28,11 +28,17 @@
                                 <rect key="frame" x="56" y="330" width="108" height="132"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="100"/>
                                 <state key="normal" title="😔"/>
+                                <connections>
+                                    <action selector="disappointed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eRR-Gf-VYW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RU6-hM-CZ1">
                                 <rect key="frame" x="250" y="330" width="108" height="132"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="100"/>
                                 <state key="normal" title="🤠"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rsE-im-kEa"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QdK-GG-PRU">
                                 <rect key="frame" x="194" y="378" width="27" height="37"/>
@@ -47,9 +53,7 @@
                             <constraint firstItem="RU6-hM-CZ1" firstAttribute="leading" secondItem="QdK-GG-PRU" secondAttribute="trailing" constant="29" id="645-Y9-PR2"/>
                             <constraint firstItem="Yq4-9Y-hH4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="101" id="Arc-L0-wdT"/>
                             <constraint firstItem="Yq4-9Y-hH4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="112" id="Fot-zI-aCS"/>
-                            <constraint firstItem="RU6-hM-CZ1" firstAttribute="leading" secondItem="QQt-gw-xr9" secondAttribute="trailing" constant="86" id="GcR-eo-i1e"/>
                             <constraint firstItem="RU6-hM-CZ1" firstAttribute="top" secondItem="Yq4-9Y-hH4" secondAttribute="bottom" constant="149" id="ZqL-b0-gF9"/>
-                            <constraint firstItem="RU6-hM-CZ1" firstAttribute="leading" secondItem="QQt-gw-xr9" secondAttribute="trailing" constant="86" id="mE8-x9-i8U"/>
                             <constraint firstItem="QQt-gw-xr9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="56" id="nU1-VJ-zNJ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Yq4-9Y-hH4" secondAttribute="trailing" constant="111" id="qU0-ex-aVc"/>
                             <constraint firstItem="QdK-GG-PRU" firstAttribute="leading" secondItem="QQt-gw-xr9" secondAttribute="trailing" constant="30" id="rye-w7-EdY"/>
