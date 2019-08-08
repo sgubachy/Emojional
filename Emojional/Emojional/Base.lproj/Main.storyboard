@@ -29,7 +29,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="100"/>
                                 <state key="normal" title="😔"/>
                                 <connections>
-                                    <action selector="disappointed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eRR-Gf-VYW"/>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L2x-5Y-H8k"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RU6-hM-CZ1">
