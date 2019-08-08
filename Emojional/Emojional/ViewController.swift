@@ -12,6 +12,8 @@ class ViewController: UIViewController {
     
     let emojis = ["😔": "disappointed", "🤠": "cowboy"]
     
+    var customMessages = ["disappointed" : "me too", "disappointed" : "sad yeehaw :(", "disappointed" : "everybody makes mistakes, everybody has those days", "cowboy" : "yeehaw!", "cowboy" : "you got this!", "cowboy" : "you're doing great!"]
+    
     @IBAction func showMessage(sender:
         UIButton) {
         let selectedEmotion =
