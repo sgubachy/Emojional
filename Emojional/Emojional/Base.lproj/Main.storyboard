@@ -41,22 +41,40 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QdK-GG-PRU">
-                                <rect key="frame" x="194" y="378" width="27" height="37"/>
+                                <rect key="frame" x="194" y="481" width="27" height="37"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ywB-GD-dhv">
+                                <rect key="frame" x="250" y="548" width="108" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <state key="normal" title="😩"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fa5-gc-bh9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Efg-FM-CEB">
+                                <rect key="frame" x="49" y="549" width="122" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <state key="normal" title="🤡"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oVR-fY-U3u"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.81960784313725488" green="0.75294117647058822" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="QdK-GG-PRU" firstAttribute="top" secondItem="Yq4-9Y-hH4" secondAttribute="bottom" constant="197" id="28r-Xc-In8"/>
-                            <constraint firstItem="RU6-hM-CZ1" firstAttribute="leading" secondItem="QdK-GG-PRU" secondAttribute="trailing" constant="29" id="645-Y9-PR2"/>
+                            <constraint firstItem="QdK-GG-PRU" firstAttribute="top" secondItem="Yq4-9Y-hH4" secondAttribute="bottom" constant="300" id="28r-Xc-In8"/>
                             <constraint firstItem="Yq4-9Y-hH4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="101" id="Arc-L0-wdT"/>
                             <constraint firstItem="Yq4-9Y-hH4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="112" id="Fot-zI-aCS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QdK-GG-PRU" secondAttribute="trailing" constant="193" id="JsU-kJ-Gm0"/>
+                            <constraint firstItem="QdK-GG-PRU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="194" id="V39-Rv-yaa"/>
                             <constraint firstItem="RU6-hM-CZ1" firstAttribute="top" secondItem="Yq4-9Y-hH4" secondAttribute="bottom" constant="149" id="ZqL-b0-gF9"/>
                             <constraint firstItem="QQt-gw-xr9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="56" id="nU1-VJ-zNJ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Yq4-9Y-hH4" secondAttribute="trailing" constant="111" id="qU0-ex-aVc"/>
-                            <constraint firstItem="QdK-GG-PRU" firstAttribute="leading" secondItem="QQt-gw-xr9" secondAttribute="trailing" constant="30" id="rye-w7-EdY"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RU6-hM-CZ1" secondAttribute="trailing" constant="56" id="uqV-3P-ZaF"/>
                             <constraint firstItem="QQt-gw-xr9" firstAttribute="top" secondItem="Yq4-9Y-hH4" secondAttribute="bottom" constant="149" id="xAu-40-E9o"/>
                         </constraints>

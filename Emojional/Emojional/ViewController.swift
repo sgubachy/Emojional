@@ -10,9 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let emojis = ["😔": "disappointed", "🤠": "cowboy"]
+    let emojis = ["😔": "disappointed", "🤠": "cowboy", "🤡": "clownery", "😩": "spent"]
     
-    let customMessages = ["disappointed" : ["me too", "it's okay", "everybody makes mistakes, everybody has those days"], "cowboy" : ["yeehaw!", "you got this!", "you're doing great!"]]
+    let customMessages = ["disappointed" : ["me too", "it's okay", "everybody makes mistakes, everybody has those days"], "cowboy" : ["yeehaw!", "you got this!", "you're doing great!"], "clownery" : ["haha!", "you silly goose", "what happened this time?"], "spent" : ["take a break, you deserve it", "omg hope things go better", "sometimes it be like that"]]
     
     @IBAction func showMessage(sender:
         UIButton) {
